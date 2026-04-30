@@ -7,7 +7,7 @@ on:
     branches: [main]  # trigger on push to main branch
   pull_request:
     branches: [main]  # trigger on pull request to main branch
-
+ 
 jobs:
   test:
     name: Run Tests  # job name
